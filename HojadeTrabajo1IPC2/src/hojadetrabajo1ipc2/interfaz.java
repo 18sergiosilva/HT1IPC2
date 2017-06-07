@@ -225,6 +225,9 @@ public class interfaz extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
        
+        aux = "Commit Carnet: " + cinco + "_201610657";
+        JOptionPane.showMessageDialog(null, aux);
+
     }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
