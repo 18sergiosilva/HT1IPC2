@@ -1,0 +1,23 @@
+¿Qué entiende como "commit"?
+
+R//Commit es todo cambio que se realiza sobre un archivo dentro de un repositorio contenido en un branch,
+el cual tiene asociada una breve explicacion de porque se realizo dicho cambio para que las personas puedan
+conocer el historial de dicho archivo.
+
+¿Qué entiende como "merge"?
+
+R// Merge es la accion de realizar un cambio o aprobar los commits de un branch borrador a un branch master
+o el branch sobre el cual se quiere salvar la informacion.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+
+R// El pull sirve para agregar los commits de un branch desde el computador hasta GitHub mientras que el push
+es para obtener los commits que se han realizado desde GitHub hasta el computador.
+
+¿Cómo utilizar ramas ("branches") en la aplicación?
+
+
+R// Para utilizar los branches se debe crear un branch en el cual se va a copiar un branch master o un branch
+original con cierto contenido. Esto se hace con el fin de poder trabajar en un mismo proyecto varias veces al
+mismo tiempo sin necesidad de alterar el trabajo original, todos los avances pueden ser agregados a un trabajo
+original por medio del pull y el merge.
