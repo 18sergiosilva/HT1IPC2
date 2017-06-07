@@ -186,6 +186,14 @@ public class interfaz extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         
+        uno = jTextField1.getText() + " " + jTextField2.getText();
+        StringBuilder builder=new StringBuilder(uno);
+        dos = builder.reverse().toString();
+        tres = "Cadena Invertida: "+ dos;
+        cinco  = tres;
+        JOptionPane.showMessageDialog(null, tres);
+
+        
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
