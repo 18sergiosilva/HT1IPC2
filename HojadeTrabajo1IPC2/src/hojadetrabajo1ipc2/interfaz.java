@@ -152,6 +152,35 @@ public class interfaz extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
        
+         uno = jTextField1.getText();
+        
+        for(int i = 0; i < uno.length();i++){
+            if(uno.charAt(i)=='a'||uno.charAt(i)=='A'||uno.charAt(i)=='á'||uno.charAt(i)=='Á'){
+                a = true;
+            } else if(uno.charAt(i)=='e'||uno.charAt(i)=='E'||uno.charAt(i)=='é'||uno.charAt(i)=='É'){
+                e = true;
+            } else if(uno.charAt(i)=='i'||uno.charAt(i)=='I'||uno.charAt(i)=='i'||uno.charAt(i)=='Í'){
+                y = true;
+            } else if(uno.charAt(i)=='o'||uno.charAt(i)=='O'||uno.charAt(i)=='ó'||uno.charAt(i)=='Ó'){
+                o = true;
+            } else if(uno.charAt(i)=='u'||uno.charAt(i)=='U'||uno.charAt(i)=='ú'||uno.charAt(i)=='Ú'){
+                u = true;
+            } else {
+                
+            }
+        }
+       
+        if ((a == true) && (e == true) && (y == true) && (o == true) && (u == true)){
+            tres = "PALABRA CUMPLE";
+            
+        } else {
+            tres = "PALABRA NO CUMPLE";
+            
+        }
+        
+        JOptionPane.showMessageDialog(null, tres);
+        a=e=y=o=u=false;
+
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
