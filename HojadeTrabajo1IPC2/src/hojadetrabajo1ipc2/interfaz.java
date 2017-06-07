@@ -198,6 +198,17 @@ public class interfaz extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
        
+        
+        uno = jTextField1.getText();
+        dos = jTextField2.getText();
+        tres = jTextField3.getText();
+        uno1 = Integer.parseInt(uno);
+        dos2 = Integer.parseInt(dos);
+        cuatro4 = Integer.parseInt(tres);
+        cinco5 = ((dos2*cuatro4)/(uno1));
+        cuatro = "Respuesta: " + cinco5;
+        JOptionPane.showMessageDialog(null, cuatro);
+
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
