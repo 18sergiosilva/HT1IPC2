@@ -16,6 +16,12 @@ public class interfaz extends javax.swing.JFrame {
      * Creates new form jjj
      */
     
+    String uno,dos,tres,cuatro,aux,cinco;
+    int uno1,dos2,cuatro4,cinco5;
+    int contador = 0;
+    Double tres3;
+    Boolean a,e,y,o,u=false;
+
     
     
     public interfaz() {
@@ -159,7 +165,13 @@ public class interfaz extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
-        
+        uno = jTextField1.getText();
+        dos = jTextField2.getText();
+        uno1 = Integer.parseInt(uno);
+        dos2 = Integer.parseInt(dos);
+        tres3 = Math.sqrt((uno1*uno1) + (dos2 * dos2));
+        tres = "La hipotenusa es: " + tres3;
+        JOptionPane.showMessageDialog(null, tres);
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
